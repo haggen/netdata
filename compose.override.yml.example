@@ -6,7 +6,6 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.netdata.rule=Host(`netdata.local.crz.li`)"
-      # - "traefik.http.routers.netdata.entrypoints=https"
       # - "traefik.http.routers.netdata.tls=true"
 
 networks:
